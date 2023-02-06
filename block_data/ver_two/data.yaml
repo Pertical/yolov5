@@ -1,0 +1,13 @@
+train: ../block_data/ver_two/train/images
+val: ../block_data/ver_two/valid/images
+test: ../block_data/ver_two/test/images
+
+nc: 1
+names: ['block']
+
+roboflow:
+  workspace: research-hkgdu
+  project: block-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/research-hkgdu/block-dataset/dataset/2
