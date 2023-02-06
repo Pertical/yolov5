@@ -1,0 +1,13 @@
+train: ../block_data/train/images
+val: ../block_data/valid/images
+test: ../block_data/test/images
+
+nc: 1
+names: ['block']
+
+roboflow:
+  workspace: project
+  project: block-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/block-dataset/dataset/1
